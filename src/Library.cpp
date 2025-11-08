@@ -1,4 +1,5 @@
 #include "../include/Library.h"
+#include "../include/Utility.h"
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -124,11 +125,24 @@ void Library::viewBooks() const {
     }
 }
 
-
 void Library::viewMembers() const {
     cout << "\n👤 Members:\n";
-    for (const auto& m : members) m.display();
+
+    // Create a vector of strings in the desired format
+    vector<string> memberList;
+    for (const auto& m : members) {
+        memberList.push_back("Member Name: " + m.getName() + ", ID: " + to_string(m.getId()));
+    }
+
+    // Print using utility function
+    printVector(memberList);
+
+    // // Optional: detailed display (kept for backward compatibility)
+    // cout << "\nDetailed view:\n";
+    // for (const auto& m : members)
+    //     m.display();
 }
+
 
 void Library::run() {
     int choice;

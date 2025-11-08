@@ -1,2 +1,9 @@
-PRINTED,The Idiot,Fyodor Dostoevsky,9788131976814,0,864,0
-PRINTED,The Count of Monte Cristo,Alexandre Dumas,9788131973455,1,1276,2300751
+PRINTED,The Brothers Karamazov,Fyodor Dostoevsky,9788131976814,0,864,0
+PRINTED,The Count of Monte Cristo,Alexandre Dumas,9788131973455,0,1276,0
+PRINTED,Sense and Sensibility,Jane Austen,9788131976302,0,321,0
+PRINTED,1984,George Orwell, 978045152493,0,214,0
+PRINTED,The Book Thief,Markus Zusak,9780375831003,0,512,0
+PRINTED,Wuthering Heights,Emily Bront�,9788131916698,0,244,0
+PRINTED,Meditations,Marcus Aurelius,9780008425029,0,132,0
+PRINTED,White Nights,Fyodor Dostoevsky,9798345314807,0,81,0
+PRINTED,The Phantom of the Opera,Gaston Leroux,9788131976449,0,262,0
